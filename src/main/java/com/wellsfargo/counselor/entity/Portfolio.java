@@ -29,10 +29,14 @@ public class Portfolio {
 
     public Client getClient() {return client;}
 
+    public void setClient(Client client) {this.client = client;}
+
     public String getPortfolioName() {return portfolioName;}
 
     public void setPortfolioName(String portfolioName) {this.portfolioName = portfolioName;}
 
     public String getCreationDate() {return creationDate;}
+
+    public void setCreationDate(String creationDate) {this.creationDate = creationDate;}
 
 }

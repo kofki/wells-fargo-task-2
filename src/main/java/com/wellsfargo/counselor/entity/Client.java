@@ -44,6 +44,8 @@ public class Client {
 
     public Advisor getAdvisor() {return this.advisor;}
 
+    public void setAdvisor(Advisor advisor) {this.advisor = advisor;}
+
     public String getFirstName() {return this.firstName;}
 
     public void setFirstName(String firstName) {this.firstName = firstName;}

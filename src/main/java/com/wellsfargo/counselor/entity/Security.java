@@ -42,6 +42,8 @@ public class Security {
 
     public Portfolio getPortfolio() {return portfolio;}
 
+    public void setPortfolio(Portfolio portfolio) {this.portfolio = portfolio;}
+
     public String getSecurityName() {return securityName;}
 
     public void setSecurityName(String securityName) {this.securityName = securityName;}
@@ -52,8 +54,14 @@ public class Security {
 
     public String getPurchaseDate() {return this.purchaseDate;}
 
+    public void setPurchaseDate(String purchaseDate) {this.purchaseDate = purchaseDate;}
+
     public double getPurchasePrice() {return this.purchasePrice;}
 
+    public void setPurchasePrice(double purchasePrice) {this.purchasePrice = purchasePrice;}
+
     public double getQuantity() {return this.quantity;}
+
+    public void setQuantity(double quantity) {this.quantity = quantity;}
 
 }
